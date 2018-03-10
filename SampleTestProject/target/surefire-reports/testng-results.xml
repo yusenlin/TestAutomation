@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Instantiate Appium Driver @local: http://0.0.0.0:4723/wd/hub]]>
+    </line>
+    <line>
+      <![CDATA[test 1 starting]]>
+    </line>
+    <line>
+      <![CDATA[  TEST RESULT: SUCESS, A5-Yusen.Lin IS displayed]]>
+    </line>
+    <line>
+      <![CDATA[test 1 ended
+]]>
+    </line>
+    <line>
+      <![CDATA[test 2 starting]]>
+    </line>
+    <line>
+      <![CDATA[  TEST RESULT: SUCESS, get location data]]>
+    </line>
+    <line>
+      <![CDATA[test 2 ended
+]]>
+    </line>
+    <line>
+      <![CDATA[test 3 starting]]>
+    </line>
+    <line>
+      <![CDATA[  TEST RESULT: SUCESS, location data cleared]]>
+    </line>
+    <line>
+      <![CDATA[test 3 ended
+]]>
+    </line>
+    <line>
+      <![CDATA[test 4 starting]]>
+    </line>
+    <line>
+      <![CDATA[  TEST RESULT: SUCESS, google map IS displayed]]>
+    </line>
+    <line>
+      <![CDATA[test 4 ended
+]]>
+    </line>
+    <line>
+      <![CDATA[Closing Appium Session.]]>
+    </line>
+  </reporter-output>
+  <suite name="AppiumTest.NewTest" duration-ms="72054" started-at="2018-03-09T01:00:49Z" finished-at="2018-03-09T01:02:01Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="72054" started-at="2018-03-09T01:00:49Z" finished-at="2018-03-09T01:02:01Z">
+      <class name="AppiumTest.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="beforeTest" is-config="true" duration-ms="10" started-at="2018-03-08T17:00:49Z" finished-at="2018-03-08T17:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setCapabilities()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="setCapabilities" is-config="true" duration-ms="24338" started-at="2018-03-08T17:00:49Z" finished-at="2018-03-08T17:01:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Instantiate Appium Driver @local: http://0.0.0.0:4723/wd/hub]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setCapabilities -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-08T17:01:13Z" finished-at="2018-03-08T17:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="test1" duration-ms="221" started-at="2018-03-08T17:01:13Z" finished-at="2018-03-08T17:01:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test 1 starting]]>
+            </line>
+            <line>
+              <![CDATA[  TEST RESULT: SUCESS, A5-Yusen.Lin IS displayed]]>
+            </line>
+            <line>
+              <![CDATA[test 1 ended
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-08T17:01:13Z" finished-at="2018-03-08T17:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-08T17:01:13Z" finished-at="2018-03-08T17:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="test2" duration-ms="2309" started-at="2018-03-08T17:01:13Z" finished-at="2018-03-08T17:01:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test 2 starting]]>
+            </line>
+            <line>
+              <![CDATA[  TEST RESULT: SUCESS, get location data]]>
+            </line>
+            <line>
+              <![CDATA[test 2 ended
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="test3" duration-ms="2226" started-at="2018-03-08T17:01:15Z" finished-at="2018-03-08T17:01:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test 3 starting]]>
+            </line>
+            <line>
+              <![CDATA[  TEST RESULT: SUCESS, location data cleared]]>
+            </line>
+            <line>
+              <![CDATA[test 3 ended
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-08T17:01:15Z" finished-at="2018-03-08T17:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-08T17:01:15Z" finished-at="2018-03-08T17:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-08T17:01:18Z" finished-at="2018-03-08T17:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-08T17:01:18Z" finished-at="2018-03-08T17:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="test4" duration-ms="25279" started-at="2018-03-08T17:01:18Z" finished-at="2018-03-08T17:01:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test 4 starting]]>
+            </line>
+            <line>
+              <![CDATA[  TEST RESULT: SUCESS, google map IS displayed]]>
+            </line>
+            <line>
+              <![CDATA[test 4 ended
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="TearDown" is-config="true" duration-ms="12652" started-at="2018-03-08T17:01:43Z" finished-at="2018-03-08T17:01:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Appium Session.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-08T17:01:43Z" finished-at="2018-03-08T17:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AppiumTest.NewTest@32d992b2]" name="afterTest" is-config="true" duration-ms="5001" started-at="2018-03-08T17:01:56Z" finished-at="2018-03-08T17:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- AppiumTest.NewTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- AppiumTest.NewTest -->
+</testng-results>

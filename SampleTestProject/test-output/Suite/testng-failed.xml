@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="AppiumTest.NewTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="test2"/>
+          <include name="beforeMethod"/>
+          <include name="TearDown"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="setCapabilities"/>
+        </methods>
+      </class> <!-- AppiumTest.NewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
